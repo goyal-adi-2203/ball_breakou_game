@@ -27,8 +27,7 @@ scr.listen()
 
 # defining which keys it needs to listen to, 
 # which are the left and right arrow keys (to 
-# move the paddle) , SPACE bar (to pause/resume 
-# the game) and R to restart.
+# move the paddle) 
 scr.onkey(key='Left',fun=pd.left)
 scr.onkey(key='Right',fun=pd.right)
 
