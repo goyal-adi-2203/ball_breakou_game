@@ -11,7 +11,8 @@ from pdle import Paddle
 from ui import UI
 # BRICKS
 from bricks import Bricks
-
+# scoreboard
+from scrbrd import Scoreboard
 
 # creating console background
 scr = t.Screen()
@@ -28,7 +29,8 @@ pd=Paddle()
 ui = UI()
 # BRICKS
 bricks = Bricks()
-
+# scoreboard
+score = Scoreboard(lives = 3)
 
 # calling header function to write heading
 ui.header()
@@ -47,9 +49,12 @@ def end_game():
 
 # function to restart the game
 def restart():
-    global play_game
+    global game_pause,play_game
+    play_game = True
+    game_pause = False
     pd.reset()
-    # play_game = False
+    score.reset()
+    bricks.reset()
     time.sleep(0.5)
     # scr.bye()
 
@@ -58,7 +63,7 @@ scr.listen()
 
 # defining which keys it needs to listen to, 
 # which are the left and right arrow keys (to 
-# move the paddle) and R to restart.
+# move the paddle) s to stop and R to restart.
 scr.onkey(key='Left',fun = pd.left)
 scr.onkey(key='Right',fun = pd.right)
 scr.onkey(key='r',fun = restart)
