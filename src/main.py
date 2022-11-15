@@ -9,7 +9,8 @@ import time
 from pdle import Paddle 
 # UI
 from ui import UI
-
+# BRICKS
+from bricks import Bricks
 
 
 # creating console background
@@ -25,6 +26,9 @@ scr.tracer(0)
 pd=Paddle()
 # UI
 ui = UI()
+# BRICKS
+bricks = Bricks()
+
 
 # calling header function to write heading
 ui.header()
