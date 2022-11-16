@@ -57,3 +57,4 @@ class Ball(Turtle):
     def reset(self):
         self.goto(x=0,y=-240)
         self.y_move_dist = DIS
+        self.x_move_dist = DIS
