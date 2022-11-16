@@ -29,7 +29,7 @@ class Brick(Turtle):
         self.bottom_wall = self.ycor() - 15 
 
 # class Bricks for definition of collection of bricks
-class Bricks:
+class Bricks(Turtle):
 
     # function for the properties of collection
     def __init__(self) -> None:
