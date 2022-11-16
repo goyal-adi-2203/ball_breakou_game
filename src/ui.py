@@ -9,7 +9,6 @@ FONT = ('calibri',52,'normal')
 FONT2 = ('calibri',14,'normal')
 ALIGN = 'center'
 
-
 # class UI inheriting Turtle
 class UI(Turtle):
 
@@ -18,12 +17,12 @@ class UI(Turtle):
         super().__init__()
         self.hideturtle()
         self.penup()
-        self.color('blue')
-        self.header()
+        # self.header()
 
     # function for the heading
     def header(self):
         self.clear()
+        self.color('blue')
         self.goto(x = 0,y=-150 )
         self.write('BREAKOUT',align=ALIGN,font=FONT)
         self.goto(x=0,y=-180)
@@ -38,3 +37,14 @@ class UI(Turtle):
         else:
             self.write("Game Over! :( ",align=ALIGN,font=FONT)
     
+    # function to show score when game is paused
+    def when_pause(self,score):
+        self.clear()
+        self.goto(x=0,y=-150)
+        self.color('yellow')
+        self.write(f"Current Score : {score}",align=ALIGN,font=FONT)
+
+    def unpause(self):
+        self.clear()
+        self.header()
+
