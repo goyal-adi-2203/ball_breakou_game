@@ -1,7 +1,6 @@
 # scrbrd.py to keep track of scores via 
 # a text file of the game  
 
-
 # turtle module to create
 from turtle import Turtle
 
