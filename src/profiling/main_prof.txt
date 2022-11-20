@@ -1,0 +1,557 @@
+         317529 function calls (317121 primitive calls) in 2.478 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+     18/6    0.000    0.000    0.076    0.013 <frozen importlib._bootstrap>:1022(_find_and_load)
+      8/2    0.000    0.000    0.005    0.002 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+     26/7    0.000    0.000    0.060    0.009 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+      155    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:254(_requires_builtin_wrapper)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:391(cached)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:404(parent)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(has_location)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:421(spec_from_loader)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+       18    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:492(_init_module_attrs)
+       18    0.000    0.000    0.023    0.001 <frozen importlib._bootstrap>:564(module_from_spec)
+     18/6    0.000    0.000    0.074    0.012 <frozen importlib._bootstrap>:664(_load_unlocked)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:746(find_spec)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:770(create_module)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:778(exec_module)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:795(is_package)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:826(find_spec)
+       46    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:893(__enter__)
+       46    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:897(__exit__)
+       18    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap>:921(_find_spec)
+     18/6    0.000    0.000    0.076    0.013 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1040(__init__)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1065(get_filename)
+       14    0.000    0.000    0.013    0.001 <frozen importlib._bootstrap_external>:1070(get_data)
+       13    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1089(path_stats)
+        1    0.000    0.000    0.005    0.005 <frozen importlib._bootstrap_external>:1094(_cache_bytecode)
+        1    0.000    0.000    0.005    0.005 <frozen importlib._bootstrap_external>:1099(set_data)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1163(__init__)
+        1    0.000    0.000    0.022    0.022 <frozen importlib._bootstrap_external>:1174(create_module)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1182(exec_module)
+      138    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:119(<listcomp>)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1334(_path_hooks)
+       81    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1347(_path_importer_cache)
+       14    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1390(_get_spec)
+       61    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+       14    0.000    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:1422(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1485(__init__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1491(<genexpr>)
+       18    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1522(_get_spec)
+       28    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:1527(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1578(_fill_cache)
+       16    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1607(<setcomp>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1619(path_hook_for_FileFinder)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isdir)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+        1    0.000    0.000    0.004    0.004 <frozen importlib._bootstrap_external>:185(_write_atomic)
+       26    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:380(cache_from_source)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:510(_get_cached)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:522(_calc_mode)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:542(_check_name_wrapper)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:585(_classify_pyc)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:618(_validate_timestamp_pyc)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+       12    0.000    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:670(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:683(_code_to_timestamp_pyc)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:721(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:79(_pack_uint32)
+       38    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:874(create_module)
+     13/6    0.000    0.000    0.074    0.012 <frozen importlib._bootstrap_external>:877(exec_module)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:942(source_to_code)
+       13    0.000    0.000    0.024    0.002 <frozen importlib._bootstrap_external>:950(get_code)
+      138    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+        1    0.000    0.000    0.000    0.000 <frozen zipimport>:64(__init__)
+      110    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+     2951    0.004    0.000    0.027    0.000 <string>:1(coords)
+        1    0.000    0.000    0.001    0.001 <string>:1(create_image)
+      320    0.001    0.000    0.014    0.000 <string>:1(create_line)
+      156    0.000    0.000    0.010    0.000 <string>:1(create_polygon)
+        6    0.000    0.000    0.043    0.007 <string>:1(create_text)
+       12    0.000    0.000    0.000    0.000 <string>:1(delete)
+     8320    0.009    0.000    0.105    0.000 <string>:1(itemconfigure)
+        1    0.000    0.000    0.000    0.000 <string>:1(mainloop)
+     3084    0.003    0.000    0.013    0.000 <string>:1(tag_raise)
+        1    0.000    0.000    0.031    0.031 __init__.py:1(<module>)
+    17167    0.022    0.000    0.031    0.000 __init__.py:101(_cnfmerge)
+       17    0.000    0.000    0.000    0.000 __init__.py:1124(winfo_height)
+      314    0.001    0.000    0.020    0.000 __init__.py:1191(winfo_rgb)
+        2    0.000    0.000    0.000    0.000 __init__.py:1224(winfo_screenheight)
+        2    0.000    0.000    0.000    0.000 __init__.py:1248(winfo_screenwidth)
+        1    0.000    0.000    0.000    0.000 __init__.py:1259(winfo_toplevel)
+       17    0.000    0.000    0.000    0.000 __init__.py:1324(winfo_width)
+       28    0.000    0.000    0.362    0.013 __init__.py:1341(update)
+        5    0.000    0.000    0.000    0.000 __init__.py:1364(_bind)
+        5    0.000    0.000    0.000    0.000 __init__.py:1382(bind)
+        4    0.000    0.000    0.000    0.000 __init__.py:1423(unbind)
+      320    0.003    0.000    0.004    0.000 __init__.py:1464(_getints)
+        1    0.000    0.000    0.001    0.001 __init__.py:147(EventType)
+     8839    0.022    0.000    0.039    0.000 __init__.py:1497(_options)
+       18    0.000    0.000    0.000    0.000 __init__.py:1523(nametowidget)
+       11    0.000    0.000    0.000    0.000 __init__.py:1542(_register)
+       18    0.000    0.000    0.000    0.000 __init__.py:1566(_root)
+       17    0.001    0.000    0.003    0.000 __init__.py:1576(_substitute)
+      187    0.000    0.000    0.001    0.000 __init__.py:1582(getint_event)
+     8324    0.018    0.000    0.091    0.000 __init__.py:1655(_configure)
+        4    0.000    0.000    0.000    0.000 __init__.py:1668(configure)
+       25    0.000    0.000    0.000    0.000 __init__.py:1694(__str__)
+        2    0.000    0.000    0.001    0.000 __init__.py:1784(_grid_configure)
+        1    0.000    0.000    0.000    0.000 __init__.py:1805(grid_columnconfigure)
+        1    0.000    0.000    0.001    0.001 __init__.py:1836(grid_rowconfigure)
+        1    0.000    0.000    0.000    0.000 __init__.py:1906(CallWrapper)
+        1    0.000    0.000    0.000    0.000 __init__.py:191(Event)
+       11    0.000    0.000    0.000    0.000 __init__.py:1910(__init__)
+       29    0.000    0.000    0.006    0.000 __init__.py:1916(__call__)
+        1    0.000    0.000    0.000    0.000 __init__.py:1928(XView)
+       18    0.000    0.000    0.000    0.000 __init__.py:1938(xview_moveto)
+        1    0.000    0.000    0.000    0.000 __init__.py:1949(YView)
+       18    0.000    0.000    0.000    0.000 __init__.py:1959(yview_moveto)
+        1    0.000    0.000    0.000    0.000 __init__.py:1970(Wm)
+        2    0.000    0.000    0.000    0.000 __init__.py:2070(wm_geometry)
+        2    0.000    0.000    0.000    0.000 __init__.py:2218(wm_protocol)
+        2    0.000    0.000    0.000    0.000 __init__.py:2253(wm_title)
+        1    0.000    0.000    0.000    0.000 __init__.py:2274(Tk)
+        1    0.000    0.000    0.168    0.168 __init__.py:2279(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:2311(_loadtk)
+        1    0.000    0.000    0.031    0.031 __init__.py:2337(destroy)
+        1    0.000    0.000    0.000    0.000 __init__.py:2347(readprofile)
+        1    0.000    0.000    0.000    0.000 __init__.py:2404(Pack)
+        1    0.000    0.000    0.000    0.000 __init__.py:2409(pack_configure)
+        1    0.000    0.000    0.000    0.000 __init__.py:2450(Place)
+        1    0.000    0.000    0.000    0.000 __init__.py:2501(Grid)
+       25    0.000    0.000    0.001    0.000 __init__.py:2507(grid_configure)
+       12    0.000    0.000    0.000    0.000 __init__.py:2530(grid_forget)
+        1    0.000    0.000    0.000    0.000 __init__.py:2556(BaseWidget)
+        4    0.000    0.000    0.000    0.000 __init__.py:2559(_setup)
+        4    0.000    0.000    0.001    0.000 __init__.py:2589(__init__)
+        4    0.000    0.000    0.000    0.000 __init__.py:2598(<listcomp>)
+        4    0.000    0.000    0.004    0.001 __init__.py:2606(destroy)
+        1    0.000    0.000    0.000    0.000 __init__.py:2619(Widget)
+        1    0.000    0.000    0.000    0.000 __init__.py:2627(Toplevel)
+        1    0.000    0.000    0.000    0.000 __init__.py:2657(Button)
+        1    0.000    0.000    0.000    0.000 __init__.py:2704(Canvas)
+        1    0.000    0.000    0.001    0.001 __init__.py:2707(__init__)
+        6    0.000    0.000    0.000    0.000 __init__.py:2756(bbox)
+     2951    0.006    0.000    0.023    0.000 __init__.py:2790(coords)
+     2951    0.002    0.000    0.002    0.000 __init__.py:2793(<listcomp>)
+      483    0.003    0.000    0.065    0.000 __init__.py:2797(_create)
+        1    0.000    0.000    0.001    0.001 __init__.py:2817(create_image)
+      320    0.000    0.000    0.013    0.000 __init__.py:2821(create_line)
+      156    0.000    0.000    0.009    0.000 __init__.py:2829(create_polygon)
+        6    0.000    0.000    0.043    0.007 __init__.py:2837(create_text)
+       12    0.000    0.000    0.000    0.000 __init__.py:2850(delete)
+     8320    0.006    0.000    0.096    0.000 __init__.py:2925(itemconfigure)
+     3084    0.003    0.000    0.010    0.000 __init__.py:2968(tag_raise)
+        1    0.000    0.000    0.000    0.000 __init__.py:3014(Checkbutton)
+        1    0.000    0.000    0.000    0.000 __init__.py:3050(Entry)
+        1    0.000    0.000    0.000    0.000 __init__.py:3136(Frame)
+        1    0.000    0.000    0.000    0.000 __init__.py:3139(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:3156(Label)
+        1    0.000    0.000    0.000    0.000 __init__.py:3180(Listbox)
+        1    0.000    0.000    0.000    0.000 __init__.py:3296(Menu)
+        1    0.000    0.000    0.000    0.000 __init__.py:3426(Menubutton)
+        1    0.000    0.000    0.000    0.000 __init__.py:3433(Message)
+        1    0.000    0.000    0.000    0.000 __init__.py:3440(Radiobutton)
+        1    0.000    0.000    0.000    0.000 __init__.py:345(Variable)
+        1    0.000    0.000    0.000    0.000 __init__.py:3473(Scale)
+        1    0.000    0.000    0.000    0.000 __init__.py:3512(Scrollbar)
+        2    0.000    0.000    0.000    0.000 __init__.py:3515(__init__)
+       12    0.000    0.000    0.000    0.000 __init__.py:3556(set)
+        1    0.000    0.000    0.000    0.000 __init__.py:3562(Text)
+        1    0.000    0.000    0.000    0.000 __init__.py:3966(_setit)
+        1    0.000    0.000    0.000    0.000 __init__.py:3980(OptionMenu)
+        1    0.000    0.000    0.000    0.000 __init__.py:4019(Image)
+        1    0.000    0.000    0.000    0.000 __init__.py:4023(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:4085(PhotoImage)
+        1    0.000    0.000    0.000    0.000 __init__.py:4088(__init__)
+        1    0.000    0.000    0.000    0.000 __init__.py:4095(blank)
+        1    0.000    0.000    0.000    0.000 __init__.py:4169(BitmapImage)
+        1    0.000    0.000    0.000    0.000 __init__.py:4189(Spinbox)
+        1    0.000    0.000    0.000    0.000 __init__.py:4367(LabelFrame)
+        1    0.000    0.000    0.000    0.000 __init__.py:4391(PanedWindow)
+        1    0.000    0.000    0.000    0.000 __init__.py:4606(<listcomp>)
+        1    0.000    0.000    0.000    0.000 __init__.py:526(StringVar)
+        1    0.000    0.000    0.000    0.000 __init__.py:550(IntVar)
+        1    0.000    0.000    0.000    0.000 __init__.py:575(DoubleVar)
+        1    0.000    0.000    0.000    0.000 __init__.py:596(BooleanVar)
+       12    0.000    0.000    0.000    0.000 __init__.py:61(_stringify)
+        1    0.000    0.000    0.000    0.000 __init__.py:646(Misc)
+        5    0.000    0.000    0.000    0.000 __init__.py:657(destroy)
+        1    0.000    0.000    0.000    0.000 __init__.py:768(focus_force)
+        1    0.000    0.000    0.000    0.000 _collections_abc.py:820(__contains__)
+        1    0.000    0.000    0.000    0.000 ball.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 ball.py:12(Ball)
+        1    0.000    0.000    0.001    0.001 ball.py:23(__init__)
+       18    0.001    0.000    0.005    0.000 ball.py:36(move)
+        1    0.000    0.000    0.000    0.000 ball.py:45(bounce)
+        1    0.000    0.000    0.000    0.000 bisect.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 bricks.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 bricks.py:10(Brick)
+      152    0.002    0.000    0.077    0.001 bricks.py:13(__init__)
+        1    0.000    0.000    0.000    0.000 bricks.py:32(Bricks)
+        1    0.000    0.000    0.078    0.078 bricks.py:35(__init__)
+        8    0.000    0.000    0.078    0.010 bricks.py:42(crt_lane)
+        1    0.000    0.000    0.078    0.078 bricks.py:48(crt_lanes)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+        1    0.000    0.000    0.000    0.000 commondialog.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 commondialog.py:16(Dialog)
+        1    0.000    0.000    0.000    0.000 constants.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+       39    0.000    0.000    0.000    0.000 enum.py:12(_is_descriptor)
+        1    0.000    0.000    0.000    0.000 enum.py:165(__prepare__)
+        1    0.000    0.000    0.001    0.001 enum.py:180(__new__)
+        1    0.000    0.000    0.000    0.000 enum.py:198(<dictcomp>)
+       44    0.000    0.000    0.000    0.000 enum.py:22(_is_dunder)
+        1    0.000    0.000    0.000    0.000 enum.py:222(<setcomp>)
+        3    0.000    0.000    0.000    0.000 enum.py:245(<genexpr>)
+       44    0.000    0.000    0.000    0.000 enum.py:33(_is_sunder)
+       25    0.000    0.000    0.000    0.000 enum.py:359(__call__)
+        1    0.000    0.000    0.000    0.000 enum.py:423(__getattr__)
+       44    0.000    0.000    0.000    0.000 enum.py:44(_is_private)
+       46    0.000    0.000    0.000    0.000 enum.py:470(__setattr__)
+        1    0.000    0.000    0.000    0.000 enum.py:569(_check_for_existing_members)
+        2    0.000    0.000    0.000    0.000 enum.py:579(_get_mixins_)
+        2    0.000    0.000    0.000    0.000 enum.py:590(_find_data_type)
+        1    0.000    0.000    0.000    0.000 enum.py:626(_find_new_)
+       25    0.000    0.000    0.000    0.000 enum.py:678(__new__)
+        1    0.000    0.000    0.000    0.000 enum.py:801(value)
+        1    0.000    0.000    0.000    0.000 enum.py:82(__init__)
+       44    0.000    0.000    0.001    0.000 enum.py:89(__setitem__)
+        4    0.000    0.000    0.000    0.000 enum.py:986(__and__)
+        1    0.000    0.000    0.000    0.000 genericpath.py:121(_splitext)
+        6    0.000    0.000    0.000    0.000 genericpath.py:27(isfile)
+      110    0.000    0.000    0.001    0.000 inspect.py:1190(getargs)
+      110    0.000    0.000    0.000    0.000 inspect.py:379(iscode)
+        1    0.001    0.001    2.479    2.479 main.py:1(<module>)
+       18    0.000    0.000    0.001    0.000 main.py:112(check_coll_paddle)
+       18    0.002    0.000    0.044    0.002 main.py:156(check_coll_brick)
+        1    0.000    0.000    0.000    0.000 main.py:61(stop)
+       18    0.000    0.000    0.000    0.000 main.py:81(check_coll_walls)
+        1    0.000    0.000    0.001    0.001 messagebox.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 messagebox.py:61(Message)
+       12    0.000    0.000    0.000    0.000 ntpath.py:124(splitdrive)
+        2    0.000    0.000    0.000    0.000 ntpath.py:180(split)
+        1    0.000    0.000    0.000    0.000 ntpath.py:203(splitext)
+        1    0.000    0.000    0.000    0.000 ntpath.py:214(basename)
+        2    0.000    0.000    0.000    0.000 ntpath.py:34(_get_bothseps)
+        5    0.000    0.000    0.000    0.000 ntpath.py:77(join)
+        1    0.000    0.000    0.000    0.000 os.py:674(__getitem__)
+        1    0.000    0.000    0.000    0.000 os.py:740(check_str)
+        1    0.000    0.000    0.000    0.000 os.py:746(encodekey)
+        1    0.000    0.000    0.000    0.000 pdle.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 pdle.py:12(Paddle)
+        1    0.000    0.000    0.002    0.002 pdle.py:15(__init__)
+        1    0.000    0.000    0.001    0.001 random.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 random.py:103(Random)
+        1    0.000    0.000    0.000    0.000 random.py:119(__init__)
+        1    0.000    0.000    0.000    0.000 random.py:128(seed)
+        1    0.000    0.000    0.000    0.000 random.py:219(__init_subclass__)
+        1    0.000    0.000    0.000    0.000 random.py:813(SystemRandom)
+      112    0.000    0.000    0.001    0.000 re.py:249(compile)
+      112    0.000    0.000    0.001    0.000 re.py:288(_compile)
+        1    0.000    0.000    0.000    0.000 scrbrd.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 scrbrd.py:25(Scoreboard)
+        1    0.000    0.000    0.026    0.026 scrbrd.py:28(__init__)
+        4    0.000    0.000    0.047    0.012 scrbrd.py:45(update_scr)
+        3    0.000    0.000    0.021    0.007 scrbrd.py:50(inc_score)
+        1    0.000    0.000    0.003    0.003 simpledialog.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 simpledialog.py:270(_QueryDialog)
+        1    0.000    0.000    0.000    0.000 simpledialog.py:31(SimpleDialog)
+        1    0.000    0.000    0.000    0.000 simpledialog.py:337(_QueryInteger)
+        1    0.000    0.000    0.000    0.000 simpledialog.py:359(_QueryFloat)
+        1    0.000    0.000    0.000    0.000 simpledialog.py:381(_QueryString)
+        1    0.000    0.000    0.000    0.000 simpledialog.py:89(Dialog)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:249(_compile_charset)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:276(_optimize_charset)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:411(_mk_bitmap)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:413(<listcomp>)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:432(_generate_overlap_table)
+        8    0.000    0.000    0.000    0.000 sre_compile.py:453(_get_iscased)
+      6/4    0.000    0.000    0.000    0.000 sre_compile.py:461(_get_literal_prefix)
+        2    0.000    0.000    0.000    0.000 sre_compile.py:492(_get_charset_prefix)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:536(_compile_info)
+        8    0.000    0.000    0.000    0.000 sre_compile.py:595(isstring)
+        4    0.000    0.000    0.000    0.000 sre_compile.py:598(_code)
+        6    0.000    0.000    0.000    0.000 sre_compile.py:65(_combine_flags)
+      8/4    0.000    0.000    0.000    0.000 sre_compile.py:71(_compile)
+        4    0.000    0.000    0.001    0.000 sre_compile.py:759(compile)
+        8    0.000    0.000    0.000    0.000 sre_parse.py:111(__init__)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:160(__len__)
+       46    0.000    0.000    0.000    0.000 sre_parse.py:164(__getitem__)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:168(__setitem__)
+       28    0.000    0.000    0.000    0.000 sre_parse.py:172(append)
+     10/6    0.000    0.000    0.000    0.000 sre_parse.py:174(getwidth)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:224(__init__)
+       42    0.000    0.000    0.000    0.000 sre_parse.py:233(__next)
+       18    0.000    0.000    0.000    0.000 sre_parse.py:249(match)
+       36    0.000    0.000    0.000    0.000 sre_parse.py:254(get)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:286(tell)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:295(_class_escape)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:355(_escape)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:432(_uniq)
+      6/4    0.000    0.000    0.000    0.000 sre_parse.py:435(_parse_sub)
+      6/4    0.000    0.000    0.000    0.000 sre_parse.py:493(_parse)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:76(__init__)
+       12    0.000    0.000    0.000    0.000 sre_parse.py:81(groups)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:84(opengroup)
+        4    0.000    0.000    0.000    0.000 sre_parse.py:921(fix_flags)
+        4    0.000    0.000    0.001    0.000 sre_parse.py:937(parse)
+        2    0.000    0.000    0.000    0.000 sre_parse.py:96(closegroup)
+        1    0.000    0.000    0.056    0.056 turtle.py:1(<module>)
+        1    0.000    0.000    0.078    0.078 turtle.py:1005(clear)
+      156    0.000    0.000    0.000    0.000 turtle.py:1035(mode)
+      314    0.001    0.000    0.022    0.000 turtle.py:1143(_colorstr)
+       20    0.000    0.000    0.000    0.000 turtle.py:1214(turtles)
+        2    0.000    0.000    0.085    0.043 turtle.py:1223(bgcolor)
+        1    0.000    0.000    0.000    0.000 turtle.py:1246(tracer)
+     2808    0.003    0.000    0.003    0.000 turtle.py:1289(_incrementudc)
+       20    0.004    0.000    0.474    0.024 turtle.py:1298(update)
+      154    0.000    0.000    0.001    0.000 turtle.py:1339(getshapes)
+        3    0.000    0.000    0.000    0.000 turtle.py:1350(onclick)
+        4    0.000    0.000    0.000    0.000 turtle.py:1367(onkey)
+        1    0.000    0.000    0.000    0.000 turtle.py:1397(onkeypress)
+        1    0.000    0.000    0.000    0.000 turtle.py:1429(listen)
+        1    0.000    0.000    0.000    0.000 turtle.py:1511(TNavigator)
+      156    0.001    0.000    0.002    0.000 turtle.py:1523(__init__)
+      156    0.000    0.000    0.001    0.000 turtle.py:1533(reset)
+      156    0.000    0.000    0.000    0.000 turtle.py:1541(_setmode)
+      156    0.000    0.000    0.000    0.000 turtle.py:1556(_setDegreesPerAU)
+      156    0.000    0.000    0.000    0.000 turtle.py:1565(degrees)
+      400    0.000    0.000    0.000    0.000 turtle.py:1715(xcor)
+      363    0.000    0.000    0.000    0.000 turtle.py:1729(ycor)
+      177    0.001    0.000    0.011    0.000 turtle.py:1744(goto)
+     2702    0.009    0.000    0.020    0.000 turtle.py:1829(distance)
+        1    0.000    0.000    0.000    0.000 turtle.py:200(readconfig)
+        1    0.000    0.000    0.000    0.000 turtle.py:2022(TPen)
+      156    0.000    0.000    0.001    0.000 turtle.py:2026(__init__)
+      156    0.000    0.000    0.000    0.000 turtle.py:2031(_reset)
+      156    0.000    0.000    0.005    0.000 turtle.py:2096(penup)
+      156    0.001    0.000    0.028    0.000 turtle.py:2177(color)
+        2    0.000    0.000    0.000    0.000 turtle.py:2309(hideturtle)
+      467    0.006    0.000    0.013    0.000 turtle.py:2337(pen)
+        1    0.000    0.000    0.000    0.000 turtle.py:236(Vec2D)
+        1    0.000    0.000    0.000    0.000 turtle.py:2482(_TurtleImage)
+      156    0.000    0.000    0.011    0.000 turtle.py:2486(__init__)
+      310    0.001    0.000    0.011    0.000 turtle.py:2491(_setshape)
+     8582    0.005    0.000    0.008    0.000 turtle.py:250(__new__)
+        1    0.000    0.000    0.000    0.000 turtle.py:2513(RawTurtle)
+      156    0.003    0.000    0.033    0.000 turtle.py:2520(__init__)
+     2772    0.004    0.000    0.006    0.000 turtle.py:258(__rmul__)
+        8    0.000    0.000    0.000    0.000 turtle.py:2585(setundobuffer)
+        8    0.000    0.000    0.001    0.000 turtle.py:2617(_clear)
+     2702    0.004    0.000    0.006    0.000 turtle.py:262(__sub__)
+        8    0.000    0.000    0.001    0.000 turtle.py:2631(clear)
+     2808    0.005    0.000    0.008    0.000 turtle.py:2646(_update_data)
+      970    0.001    0.000    0.001    0.000 turtle.py:2654(_update)
+     5474    0.003    0.000    0.007    0.000 turtle.py:266(__abs__)
+      312    0.000    0.000    0.022    0.000 turtle.py:2696(_colorstr)
+      154    0.001    0.000    0.002    0.000 turtle.py:2754(shape)
+      153    0.001    0.000    0.004    0.000 turtle.py:2781(shapesize)
+     27/2    0.000    0.000    0.000    0.000 turtle.py:289(__methodDict)
+     2772    0.009    0.000    0.031    0.000 turtle.py:2954(_polytrafo)
+     2772    0.007    0.000    0.007    0.000 turtle.py:2963(<listcomp>)
+     2772    0.007    0.000    0.013    0.000 turtle.py:2983(_getshapepoly)
+        1    0.000    0.000    0.000    0.000 turtle.py:299(__methods)
+    13770    0.006    0.000    0.006    0.000 turtle.py:2994(<genexpr>)
+     2808    0.012    0.000    0.215    0.000 turtle.py:2996(_drawturtle)
+        1    0.000    0.000    0.002    0.002 turtle.py:309(__forwardmethods)
+        8    0.000    0.000    0.000    0.000 turtle.py:3118(clearstamps)
+      177    0.002    0.000    0.010    0.000 turtle.py:3146(_goto)
+      312    0.001    0.000    0.005    0.000 turtle.py:3282(_newLine)
+        1    0.000    0.000    0.000    0.000 turtle.py:330(ScrolledCanvas)
+        1    0.000    0.000    0.002    0.002 turtle.py:336(__init__)
+        6    0.000    0.000    0.074    0.012 turtle.py:3401(_write)
+        6    0.000    0.000    0.074    0.012 turtle.py:3411(write)
+        1    0.000    0.000    0.000    0.000 turtle.py:361(reset)
+        1    0.000    0.000    0.283    0.283 turtle.py:3659(Screen)
+        1    0.000    0.000    0.000    0.000 turtle.py:3667(_Screen)
+        1    0.000    0.000    0.283    0.283 turtle.py:3673(__init__)
+        2    0.000    0.000    0.053    0.026 turtle.py:3695(setup)
+        1    0.000    0.000    0.000    0.000 turtle.py:3735(title)
+        1    0.000    0.000    0.031    0.031 turtle.py:3752(_destroy)
+        1    0.000    0.000    0.031    0.031 turtle.py:3762(bye)
+       17    0.000    0.000    0.003    0.000 turtle.py:379(adjustScrolls)
+        1    0.000    0.000    0.000    0.000 turtle.py:3800(Turtle)
+      156    0.000    0.000    0.034    0.000 turtle.py:3809(__init__)
+      110    0.001    0.000    0.002    0.000 turtle.py:3885(getmethparlist)
+      110    0.000    0.000    0.000    0.000 turtle.py:3901(<listcomp>)
+      110    0.000    0.000    0.000    0.000 turtle.py:3903(<listcomp>)
+       79    0.000    0.000    0.001    0.000 turtle.py:3916(_turtle_docrevise)
+       31    0.000    0.000    0.001    0.000 turtle.py:3928(_screen_docrevise)
+       16    0.000    0.000    0.003    0.000 turtle.py:395(onResize)
+        2    0.000    0.000    0.014    0.007 turtle.py:3960(_make_global_funcs)
+        6    0.000    0.000    0.000    0.000 turtle.py:399(bbox)
+        2    0.000    0.000    0.000    0.000 turtle.py:409(config)
+        4    0.000    0.000    0.000    0.000 turtle.py:414(bind)
+        4    0.000    0.000    0.000    0.000 turtle.py:419(unbind)
+        1    0.000    0.000    0.000    0.000 turtle.py:424(focus_force)
+        1    0.000    0.000    0.000    0.000 turtle.py:432(_Root)
+        1    0.000    0.000    0.168    0.168 turtle.py:434(__init__)
+        1    0.000    0.000    0.002    0.002 turtle.py:437(setupcanvas)
+        1    0.000    0.000    0.000    0.000 turtle.py:441(_getcanvas)
+        2    0.000    0.000    0.000    0.000 turtle.py:444(set_geometry)
+        1    0.000    0.000    0.000    0.000 turtle.py:447(ondestroy)
+        2    0.000    0.000    0.000    0.000 turtle.py:450(win_width)
+        2    0.000    0.000    0.000    0.000 turtle.py:453(win_height)
+        1    0.000    0.000    0.000    0.000 turtle.py:459(TurtleScreenBase)
+        1    0.000    0.000    0.000    0.000 turtle.py:467(_blankimage)
+        1    0.000    0.000    0.000    0.000 turtle.py:480(__init__)
+      156    0.000    0.000    0.010    0.000 turtle.py:493(_createpoly)
+     2774    0.021    0.000    0.160    0.000 turtle.py:498(_drawpoly)
+      320    0.001    0.000    0.015    0.000 turtle.py:523(_createline)
+      312    0.001    0.000    0.004    0.000 turtle.py:529(_drawline)
+       12    0.000    0.000    0.000    0.000 turtle.py:552(_delete)
+       22    0.000    0.000    0.332    0.015 turtle.py:558(_update)
+      314    0.000    0.000    0.021    0.000 turtle.py:567(_iscolorstring)
+        2    0.000    0.000    0.085    0.043 turtle.py:577(_bgcolor)
+        6    0.000    0.000    0.074    0.012 turtle.py:586(_write)
+        3    0.000    0.000    0.000    0.000 turtle.py:659(_onscreenclick)
+        4    0.000    0.000    0.000    0.000 turtle.py:677(_onkeyrelease)
+        1    0.000    0.000    0.000    0.000 turtle.py:684(eventfun)
+        1    0.000    0.000    0.000    0.000 turtle.py:688(_onkeypress)
+        1    0.000    0.000    0.000    0.000 turtle.py:706(_listen)
+        1    0.000    0.000    0.001    0.001 turtle.py:719(_createimage)
+      177    0.001    0.000    0.007    0.000 turtle.py:746(_pointlist)
+      177    0.000    0.000    0.000    0.000 turtle.py:755(<listcomp>)
+        1    0.000    0.000    0.000    0.000 turtle.py:857(Terminator)
+        1    0.000    0.000    0.000    0.000 turtle.py:866(TurtleGraphicsError)
+        1    0.000    0.000    0.000    0.000 turtle.py:871(Shape)
+        7    0.000    0.000    0.000    0.000 turtle.py:878(__init__)
+        1    0.000    0.000    0.000    0.000 turtle.py:918(Tbuffer)
+      164    0.003    0.000    0.003    0.000 turtle.py:920(__init__)
+      656    0.001    0.000    0.001    0.000 turtle.py:933(push)
+        1    0.000    0.000    0.000    0.000 turtle.py:956(TurtleScreen)
+        1    0.000    0.000    0.078    0.078 turtle.py:965(__init__)
+        1    0.000    0.000    0.000    0.000 types.py:176(__get__)
+        1    0.000    0.000    0.002    0.002 ui.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 ui.py:13(UI)
+        1    0.000    0.000    0.000    0.000 ui.py:16(__init__)
+        1    0.000    0.000    0.028    0.028 ui.py:23(header)
+     8732    0.003    0.000    0.003    0.000 {built-in method __new__ of type object at 0x00007FFC29D3B920}
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+       12    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+       82    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+        1    0.022    0.022    0.022    0.022 {built-in method _imp.create_dynamic}
+        4    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+       14    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       14    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+       82    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        4    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       36    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+       36    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+    17646    0.005    0.000    0.005    0.000 {built-in method _tkinter._flatten}
+        1    0.168    0.168    0.168    0.168 {built-in method _tkinter.create}
+       72    0.002    0.000    0.004    0.000 {built-in method builtins.__build_class__}
+      2/1    0.000    0.000    0.004    0.004 {built-in method builtins.__import__}
+     5474    0.003    0.000    0.010    0.000 {built-in method builtins.abs}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+     9842    0.002    0.000    0.002    0.000 {built-in method builtins.callable}
+        1    0.001    0.001    0.001    0.001 {built-in method builtins.compile}
+    185/1    0.012    0.000    2.479    2.479 {built-in method builtins.exec}
+      224    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      221    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+      502    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+    61167    0.010    0.000    0.010    0.000 {built-in method builtins.isinstance}
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+4853/4845    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+       28    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       20    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       24    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.repr}
+      106    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+      154    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       38    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+       14    0.002    0.000    0.002    0.000 {built-in method io.open_code}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method marshal.dumps}
+       12    0.003    0.000    0.003    0.000 {built-in method marshal.loads}
+      153    0.000    0.000    0.000    0.000 {built-in method math.cos}
+        1    0.000    0.000    0.000    0.000 {built-in method math.exp}
+     5474    0.004    0.000    0.004    0.000 {built-in method math.hypot}
+        2    0.000    0.000    0.000    0.000 {built-in method math.log}
+      153    0.000    0.000    0.000    0.000 {built-in method math.sin}
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+       15    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+       60    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+       10    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+        1    0.002    0.002    0.002    0.002 {built-in method nt.open}
+        1    0.001    0.001    0.001    0.001 {built-in method nt.replace}
+       67    0.004    0.000    0.004    0.000 {built-in method nt.stat}
+       19    1.452    0.076    1.452    0.076 {built-in method time.sleep}
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x000001F9175C8940}
+       15    0.001    0.000    0.001    0.000 {method '__exit__' of '_io._IOBase' objects}
+       36    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       18    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+    23573    0.003    0.000    0.003    0.000 {method 'append' of 'list' objects}
+15356/15248    0.499    0.000    0.503    0.000 {method 'call' of '_tkinter.tkapp' objects}
+       13    0.000    0.000    0.000    0.000 {method 'createcommand' of '_tkinter.tkapp' objects}
+       13    0.000    0.000    0.000    0.000 {method 'deletecommand' of '_tkinter.tkapp' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      496    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+       11    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       12    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+      127    0.001    0.000    0.001    0.000 {method 'format' of 'str' objects}
+       52    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       46    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+       34    0.000    0.000    0.000    0.000 {method 'getboolean' of '_tkinter.tkapp' objects}
+      708    0.000    0.000    0.000    0.000 {method 'getdouble' of '_tkinter.tkapp' objects}
+      742    0.001    0.000    0.001    0.000 {method 'getint' of '_tkinter.tkapp' objects}
+        2    0.000    0.000    0.000    0.000 {method 'getvar' of '_tkinter.tkapp' objects}
+     8889    0.002    0.000    0.002    0.000 {method 'items' of 'dict' objects}
+       31    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
+      392    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      156    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       40    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
+       16    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       20    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+       14    0.010    0.001    0.010    0.001 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.TextIOWrapper' objects}
+        3    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+      134    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       27    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+       57    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       93    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      442    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 {method 'search' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+     3271    0.002    0.000    0.002    0.000 {method 'splitlist' of '_tkinter.tkapp' objects}
+      492    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+      110    0.001    0.000    0.001    0.000 {method 'sub' of 're.Pattern' objects}
+        3    0.000    0.000    0.000    0.000 {method 'to_bytes' of 'int' objects}
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+     9823    0.003    0.000    0.003    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.001    0.001    0.001    0.001 {method 'write' of '_io.FileIO' objects}
+
+
