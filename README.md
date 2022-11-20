@@ -1,3 +1,3 @@
-# ball_breakout_game
+# mini_project
 
-this is a game
+this is mini project
