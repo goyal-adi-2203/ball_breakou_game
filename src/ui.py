@@ -35,6 +35,7 @@ class UI(Turtle):
         if W == True:
             self.write("You Cleared the Game", align=ALIGN,font=FONT)
         else:
+            self.color('cyan')
             self.write("Game Over! :( ",align=ALIGN,font=FONT)
     
     # function to show score when game is paused
