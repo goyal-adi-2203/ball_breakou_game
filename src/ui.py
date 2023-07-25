@@ -25,9 +25,6 @@ class UI(Turtle):
         self.color('blue')
         self.goto(x = 0,y=-150 )
         self.write('BREAKOUT',align=ALIGN,font=FONT)
-        self.goto(x=0,y=-180)
-        self.write('Press Space to FREEZE the Game',
-            align=ALIGN,font=FONT2)
 
     # function to show win/lose after the game ends
     def GO(self,W):
