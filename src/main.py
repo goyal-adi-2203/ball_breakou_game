@@ -44,17 +44,17 @@ bl=Ball()
 ui.header()
 
 # initialising game
-game_pause = False
+freeze = False
 play_game = True
 
 # function to pause the game
 def pause_game():
-    global game_pause,ui
-    if game_pause:
+    global freeze,ui
+    if freeze:
         # ui.header()
-        game_pause = False
+        freeze = False
     else:
-        game_pause = True
+        freeze = True
     
     
 # function to end game
@@ -193,7 +193,7 @@ time.sleep(1)
 while play_game:
 
     # playing if game not paused
-    if not game_pause:
+    if not freeze:
         
         if TEMP:
             TEMP = False
